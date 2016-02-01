@@ -43,11 +43,12 @@ ul {
 	width: 250px;
 	margin: 5px;
 	padding: 5px;
+	height: 100%;
 }
 
 #container {
 	width: 100%;
-	padding: 10% 0;
+	padding: 10% 0 0% 0;
 }
 
 #links-div {
