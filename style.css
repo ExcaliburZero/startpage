@@ -1,0 +1,26 @@
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+.row {
+	display: flex;
+}
+
+.section {
+	width: 200px;
+}
+
+#container {
+	width: 100%;
+	padding: 10% 0;
+}
+
+#links-div {
+	width: 600px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
