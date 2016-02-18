@@ -3,28 +3,28 @@ $(document).ready(function() {
 
 	$("#reddit-div").hover(
 		function() {
-			$("#reddit-list").show(300)
+			$("#reddit-list").filter(':not(:animated)').show(300);
 		},
 		function () {
-			$("#reddit-list").hide(300)
+			$("#reddit-list").hide(300);
 		}
 	);
 
 	$("#videos-div").hover(
 		function() {
-			$("#videos-list").show(300)
+			$("#videos-list").filter(':not(:animated)').show(300);
 		},
 		function () {
-			$("#videos-list").hide(300)
+			$("#videos-list").hide(300);
 		}
 	);
 
 	$("#programming-div").hover(
 		function() {
-			$("#programming-list").show(300)
+			$("#programming-list").filter(':not(:animated)').show(300);
 		},
 		function () {
-			$("#programming-list").hide(300)
+			$("#programming-list").hide(300);
 		}
 	);
 });
